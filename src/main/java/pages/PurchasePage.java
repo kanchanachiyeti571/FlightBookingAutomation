@@ -13,10 +13,10 @@ this.driver = driver;
 public void enterPassengerDetails() {
 
 driver.findElement(By.id("inputName")).sendKeys("Kanchana");
-driver.findElement(By.id("address")).sendKeys("AP");
-driver.findElement(By.id("city")).sendKeys("Pithapuram");
-driver.findElement(By.id("state")).sendKeys("AP");
-driver.findElement(By.id("zipCode")).sendKeys("533450");
+driver.findElement(By.id("address")).sendKeys("puttaparthi");
+driver.findElement(By.id("city")).sendKeys("Anantapur");
+driver.findElement(By.id("state")).sendKeys("Andhrapradesh");
+driver.findElement(By.id("zipCode")).sendKeys("515134");
 
 }
 
